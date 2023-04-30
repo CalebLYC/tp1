@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recettes>
+  <recette nom="Crème brûlée" temps_preparation="20 min" temps_cuisson="50 min" difficulte="moyenne">
+    <ingredients>
+      <ingredient nom="lait" quantite="50" unite="cl"/>
+      <ingredient nom="crème liquide" quantite="50" unite="cl"/>
+      <ingredient nom="sucre en poudre" quantite="100" unite="g"/>
+      <ingredient nom="jaunes d'œufs" quantite="6" unite=""/>
+      <ingredient nom="sucre cassonade" quantite="50" unite="g"/>
+    </ingredients>
+    <etapes>
+      <etape>1. Préchauffer le four à 150°C.</etape>
+      <etape>2. Faire bouillir le lait et la crème liquide dans une casserole.</etape>
+      <etape>3. Dans un saladier, fouetter les jaunes d'œufs avec le sucre en poudre jusqu'à ce que le mélange blanchisse.</etape>
+      <etape>4. Verser le mélange lait-crème bouillant sur les jaunes d'œufs tout en fouettant.</etape>
+      <etape>5. Répartir la préparation dans des ramequins et les placer dans un plat allant au four.</etape>
+      <etape>6. Ajouter de l'eau chaude dans le plat pour cuire au bain-marie pendant 50 minutes.</etape>
+      <etape>7. Sortir les ramequins du four et les laisser refroidir à température ambiante.</etape>
+      <etape>8. Saupoudrer les crèmes de sucre cassonade et les caraméliser à l'aide d'un chalumeau ou sous le grill du four.</etape>
+      <etape>9. Laisser refroidir et servir.</etape>
+    </etapes>
+  </recette>
+  <recette nom="Salade César" temps_preparation="20 min" difficulte="facile">
+    <ingredients>
+      <ingredient nom="laitue romaine" quantite="1" unite="tête"/>
+      <ingredient nom="poulet" quantite="2" unite="filets"/>
+      <ingredient nom="parmesan" quantite="50" unite="g"/>
+      <ingredient nom="croutons" quantite="100" unite="g"/>
+      <ingredient nom="sauce César" quantite="100" unite="ml"/>
+    </ingredients>
+    <etapes>
+      <etape>1. Laver et essorer la laitue romaine. La couper en morceaux.</etape>
+      <etape>2. Faire cuire les filets de poulet à la poêle.</etape>
+      <etape>3. Préparer la sauce César.</etape>
+      <etape>4. Dans un saladier, mélanger la laitue romaine avec les croutons, le poulet coupé en morceaux et la sauce César.</etape>
+      <etape>5. Râper le parmesan et le parsemer sur la salade.</etape>
+      <etape>6. Servir frais.</etape>
+    </etapes>
+  </recette>
+</recettes>

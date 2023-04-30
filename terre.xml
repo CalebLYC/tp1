@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE terre [
+<!ENTITY crust_oc "croûte océanique">
+<!ENTITY crust_cont "croûte continentale">
+<!ENTITY mantle_up "manteau supérieur">
+<!ENTITY mantle_low "manteau inférieur">
+<!ENTITY core_ext "noyau externe">
+<!ENTITY core_int "noyau interne">
+]>
+<terre>
+  <layers>
+    <layer name="&crust_oc;">
+      <density>3</density>
+      <thickness unit="km">6</thickness>
+      <composition>basalt</composition>
+    </layer>
+    <layer name="&crust_cont;">
+      <density>2.7</density>
+      <thickness unit="km">35</thickness>
+      <composition>granite</composition>
+    </layer>
+    <layer name="&mantle_up;">
+      <density>3.3</density>
+      <thickness unit="km">650</thickness>
+      <composition>olivine and pyroxene</composition>
+    </layer>
+    <layer name="&mantle_low;">
+      <density>6</density>
+      <thickness unit="km">2200</thickness>
+      <composition>perovskite</composition>
+    </layer>
+    <layer name="&core_ext;">
+      <density>10</density>
+      <thickness unit="km">200</thickness>
+      <composition>mixture of iron and nickel</composition>
+    </layer>
+    <layer name="&core_int;">
+      <density>13</density>
+      <thickness unit="km">2400</thickness>
+      <composition>iron</composition>
+    </layer>
+  </layers>
+</terre>

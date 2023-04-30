@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<footballeurs xmlns:f="http://example.com/footballeurs"
+              xmlns:c="http://example.com/clubs">
+  <f:footballeur numero="1">
+    <f:nom>Lilian Thuram</f:nom>
+    <c:club id="C1" annees="1990-1996">AS Monaco</c:club>
+    <c:club id="C2" annees="2006-2008">FC Barcelone</c:club>
+  </f:footballeur>
+  <f:footballeur numero="2">
+    <f:nom>Antoinne Griezmann</f:nom>
+    <c:club id="C2" annees="2019-2021">FC Barcelone</c:club>
+  </f:footballeur>
+</footballeurs>

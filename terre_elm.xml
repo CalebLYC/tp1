@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<terre>
+  <couche>
+    <nom>croûte terrestre</nom>
+    <densite>2.7</densite>
+    <sous-couche>
+      <nom>croûte continentale</nom>
+      <epaisseur>35</epaisseur>
+      <type>granite</type>
+    </sous-couche>
+    <sous-couche>
+      <nom>croûte océanique</nom>
+      <epaisseur>6</epaisseur>
+      <type>basalte</type>
+    </sous-couche>
+  </couche>
+  <couche>
+    <nom>manteau supérieur</nom>
+    <densite>3.3</densite>
+    <composant>olivine</composant>
+    <composant>pyroxène</composant>
+  </couche>
+  <couche>
+    <nom>manteau inférieur</nom>
+    <densite>6</densite>
+    <composant>pérovskite</composant>
+  </couche>
+  <couche>
+    <nom>noyau externe</nom>
+    <densite>10</densite>
+    <epaisseur>200</epaisseur>
+    <composant>fer</composant>
+    <composant>nickel</composant>
+  </couche>
+  <couche>
+    <nom>noyau interne</nom>
+    <densite>13</densite>
+    <rayon>1200</rayon>
+    <composant>fer</composant>
+  </couche>
+</terre>
